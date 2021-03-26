@@ -1,0 +1,21 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "message": {
+      "errno": 1,
+      "code": "ELIFECYCLE",
+      "pkgid": "reminder@0.1.0",
+      "stage": "build",
+      "script": "build",
+      "pkgname": "reminder"
+    },
+    "err": {
+      "name": "Error",
+      "message": "reminder@0.1.0 build: `build`\nExit status 1",
+      "code": "ELIFECYCLE",
+      "stack": "Error: reminder@0.1.0 build: `build`\nExit status 1\n    at EventEmitter.<anonymous> (C:\\Users\\Localadmin\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.js:103122:18)\n    at EventEmitter.emit (events.js:314:20)\n    at ChildProcess.<anonymous> (C:\\Users\\Localadmin\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.js:88696:16)\n    at ChildProcess.emit (events.js:314:20)\n    at maybeClose (internal/child_process.js:1047:16)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:287:5)"
+    }
+  }
+}
